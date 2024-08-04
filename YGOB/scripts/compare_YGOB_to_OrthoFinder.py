@@ -58,5 +58,5 @@ for OG in OrthoFinder_GroupsTable:
     print(f'OrthoGroup: {OG}, YGOB: {YGOB_OGs}')
     print(f'{OG}: ', ", ".join(OrthoFinder_GroupsTable[OG]))
     for ygob in YGOB_OGs:
-        print(f'YGOB_{ygob}', ", ".join(YGOB_GroupsTable[ygob]))
+        print(f'YGOB_{ygob}: ', ", ".join(YGOB_GroupsTable[ygob]))
     print("//")
